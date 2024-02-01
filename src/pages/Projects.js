@@ -4,7 +4,29 @@ function Projects() {
   return (
     <div id="projects">
       <h1>My Projects</h1>
-      {/* Add your content here */}
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      
     </div>
   );
 }

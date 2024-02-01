@@ -4,7 +4,29 @@ function Contact() {
   return (
     <div id="contact">
       <h1>Contact Page</h1>
-      {/* Add your content here */}
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      
     </div>
   );
 }

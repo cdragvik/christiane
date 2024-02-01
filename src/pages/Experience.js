@@ -4,7 +4,29 @@ function Experience() {
   return (
     <div id="experience">
       <h1>Experience</h1>
-      {/* Add your content here */}
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      <p>Pleceholder text</p>
+      
     </div>
   );
 }
