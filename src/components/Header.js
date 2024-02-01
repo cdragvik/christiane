@@ -15,7 +15,7 @@ const HeaderContainer = styled.header`
 const Logo = styled.div`
   font-size: 20px;
   font-weight: bold;
-  margin-right: 20px; /* Adjust margin as needed */
+  margin-left: 20px;
 `;
 
 const Navigation = styled.nav`
@@ -34,7 +34,6 @@ const Navigation = styled.nav`
   a {
     text-decoration: none;
     color: #333333;
-    font-weight: bold;
     transition: color 0.3s ease;
 
     &:hover {
@@ -46,12 +45,22 @@ const Navigation = styled.nav`
     display: ${({ open }) => (open ? 'flex' : 'none')};
     flex-direction: column;
     position: absolute;
-    top: 80px; /* Adjust top position as needed */
+    top: 50px;
     right: 0;
-    background-color: #ffffff; /* Adjust background color as needed */
+    background-color: #ffffff;
     width: 100%;
     padding: 20px;
-    z-index: 999; /* Ensure the menu appears above other content */
+    z-index: 999; 
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li{
+        margin: 20px 0;
+    }
   }
 `;
 
