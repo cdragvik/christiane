@@ -4,18 +4,18 @@ import styled from 'styled-components';
 const HeaderContainer = styled.header`
   position: sticky;
   top: 0;
-  background-color: #ffffff;
+  background-color: #CEE5D0;
   padding: 20px 0;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 30px;
 `;
 
 const Logo = styled.div`
   font-size: 20px;
   font-weight: bold;
-  margin-left: 20px;
 `;
 
 const Navigation = styled.nav`
@@ -33,7 +33,7 @@ const Navigation = styled.nav`
 
   a {
     text-decoration: none;
-    color: #333333;
+    color: black;
     transition: color 0.3s ease;
 
     &:hover {
@@ -47,7 +47,7 @@ const Navigation = styled.nav`
     position: absolute;
     top: 50px;
     right: 0;
-    background-color: #ffffff;
+    background-color: #CEE5D0;
     width: 100%;
     padding: 20px;
     z-index: 999; 
@@ -80,7 +80,7 @@ const HamburgerMenu = styled.div`
 const Line = styled.div`
   width: 25px;
   height: 3px;
-  background-color: #333333;
+  background-color: black;
   margin: 5px 0;
   transition: transform 0.3s ease-in-out;
 
