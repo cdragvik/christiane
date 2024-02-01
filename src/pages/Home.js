@@ -1,33 +1,57 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Section = styled.section`
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+`;
+
+const Content = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding: 20px;
+`;
+
+const ButtonContainer = styled.ul`
+  display: flex;
+  list-style-type: none;
+`;
+
+export const Button = styled.a`
+  background-color: #f7d9c6;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 10px;
+`;
+
+const Image = styled.img`
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+`;
 
 function Home() {
   return (
-    <div id="home">
-      <h1>Home Page</h1>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      <p>Pleceholder text</p>
-      
-    </div>
+    <Section id="home">
+      <Content>
+        <h1>Hello, I'm Christiane!</h1>
+        <p>Junior Frontend Developer.</p>
+        <p>Welcome to my portfolio.</p>
+        <ButtonContainer>
+          <li><Button href="#projects">Projects</Button></li>
+          <li><Button href="#experience">Experience</Button></li>
+        </ButtonContainer>
+      </Content>
+      <Image src='/portrait.png'></Image>
+    </Section>
   );
 }
 
