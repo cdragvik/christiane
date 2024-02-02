@@ -8,20 +8,20 @@ import { FaLinkedin, FaEnvelope, FaPhone } from 'react-icons/fa';
 const SectionContainer = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 800px;
-  margin: auto;
   padding: 20px;
+  background-color: #f9f1e4b8;
+  align-items: center;
 `;
 
 const Section = styled.div`
-  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
+  width: 800px;
+  margin: auto;
 
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
   }
 `;
 
