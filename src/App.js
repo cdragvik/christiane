@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
@@ -12,6 +13,7 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
+      <Footer />
     </div>
   );
 }
