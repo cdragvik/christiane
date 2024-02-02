@@ -52,7 +52,7 @@ function Home() {
           <li><Button href="#experience">Experience</Button></li>
         </ButtonContainer>
       </Content>
-      <Image src='/portrait.png'></Image>
+      <Image src='/portraitimage.png'></Image>
     </Section>
   );
 }

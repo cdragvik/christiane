@@ -3,10 +3,18 @@ import styled from 'styled-components';
 import ContactForm from '../components/ContactForm';
 import { FaLinkedin, FaEnvelope, FaPhone } from 'react-icons/fa';
 
-const ContactContainer = styled.div`
+
+
+const SectionContainer = styled.div`
+  display: flex;
+  flex-direction: column;
   max-width: 800px;
-  margin: 0 auto;
+  margin: auto;
   padding: 20px;
+`;
+
+const Section = styled.div`
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
 
@@ -35,9 +43,9 @@ const Icon = styled.span`
 
 function Contact() {
   return (
-    <div id="contact">
-      <h1>Contact Page</h1>
-      <ContactContainer>
+    <SectionContainer id="contact">
+      <h1>Contact Me</h1>
+      <Section>
         <ContactInfo>
           <h2>About Me</h2>
           <ContactDetails>
@@ -54,8 +62,8 @@ function Contact() {
           </ContactDetails>
         </ContactInfo>
         <ContactForm />
-      </ContactContainer>
-    </div>
+      </Section>
+    </SectionContainer>
   );
 }
 
