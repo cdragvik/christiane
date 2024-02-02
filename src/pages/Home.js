@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const Section = styled.section`
   display: flex;
+  flex-wrap: wrap; /* Allow content to wrap */
   max-width: 800px;
   margin: auto;
   padding: 20px;
@@ -15,6 +16,7 @@ const Content = styled.div`
   justify-content: center;
   align-items: end;
   padding: 20px;
+  margin-bottom: 20px; /* Add margin between content and image */
 `;
 
 const ButtonContainer = styled.ul`

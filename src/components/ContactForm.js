@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const FormContainer = styled.div`
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
 `;
 
 const FormGroup = styled.div`
