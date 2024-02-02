@@ -1,13 +1,20 @@
 const workExperience = [
     {
-      title: 'Frontend Developer',
-      company: 'ABC Company',
-      location: 'City, Country',
-      startDate: 'January 2020',
+      title: 'Social Care Worker (Vernepleier)',
+      company: 'Asker kommune',
+      section: 'Home healthcare',
+      startDate: 'May 2022',
       endDate: 'Present',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
     },
-    // Add more work experience items as needed
+    {
+        title: 'Assistant/Social Care Worker (Vernepleier)',
+        company: 'Asker kommune',
+        section: 'Bondi avlastning, avd. Idunn',
+        startDate: 'September 2018',
+        endDate: 'August 2021',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
+      },
   ];
   
   export default workExperience;

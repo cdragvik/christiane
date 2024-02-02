@@ -1,10 +1,18 @@
 const educationAndSkills = {
     education: [
       {
-        degree: 'Bachelor of Science in Computer Science',
-        institution: 'University Name',
-        location: 'City, Country',
-        graduationYear: '2019',
+        studies: 'Frontend-development',
+        degree: 'Higher Professional Degree',
+        institution: 'Noroff School of Technology and Digital Media',
+        location: 'Online',
+        graduationYear: '2023',
+      },
+      {
+        studies: 'Social Care Worker (Vernepleier)',
+        degree: 'Bachelors Degree',
+        institution: 'Oslo Metropolitan University',
+        location: 'Sandvika',
+        graduationYear: '2020',
       },
       // Add more education items as needed
     ],
