@@ -45,7 +45,7 @@ const educationAndSkills = {
             'Critical thinking and problem-solving abilities in addressing complex social issues',
             'Empathy, patience, and compassion in working with vulnerable populations',
           ]
-      }
+      }, 
       // Add more education items as needed
     ],
     skills: [

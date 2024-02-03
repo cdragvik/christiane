@@ -16,8 +16,10 @@ const SectionContainer = styled.div`
 const Section = styled.div`
   display: flex;
   flex-direction: column;
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   margin: auto;
+  align-items: center;
 
   @media (min-width: 768px) {
     flex-direction: row;
