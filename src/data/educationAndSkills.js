@@ -29,7 +29,7 @@ const educationAndSkills = {
         studies: 'Social Care Worker (Vernepleier)',
         degree: 'Bachelors Degree',
         institution: 'Oslo Metropolitan University',
-        location: 'Sandvika',
+        location: 'Sandvika, Norway',
         graduationYear: '2020',
         curriculumHighlights: [
             'Comprehensive study of social care theories and principles',
@@ -46,7 +46,26 @@ const educationAndSkills = {
             'Empathy, patience, and compassion in working with vulnerable populations',
           ]
       }, 
-      // Add more education items as needed
+      {
+        studies: 'Studiespesialisering med forskerlinje',
+        degree: 'High School Diploma',
+        institution: 'Røyken videregående skole',
+        location: 'Røyken, Norway',
+        graduationYear: '2017',
+        curriculumHighlights: [
+          'Specialization in General Studies with Research Line',
+          'In-depth research projects and assignments',
+          'Advanced coursework in mathematics, science, and humanities',
+          'Preparation for higher education and academic pursuits',
+        ],
+        keySkillsDeveloped: [
+          'Research and analytical skills',
+          'Academic writing and presentation abilities',
+          'Critical thinking and problem-solving capabilities',
+          'Effective time management and organization',
+          'Collaboration and teamwork in academic settings',
+        ]
+      },
     ],
     skills: [
       'HTML',
