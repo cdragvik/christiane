@@ -68,17 +68,44 @@ const educationAndSkills = {
       },
     ],
     skills: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'React',
-      'Node.js',
-      'MongoDB',
-      'Git',
-      'Bootstrap',
-      'SASS',
-      'Responsive Design'
-    ],
+      {
+        skill: 'HTML',
+        description: 'HyperText Markup Language (HTML) is the standard markup language for creating web pages and web applications. It defines the structure and content of a web page.'
+      },
+      {
+        skill: 'CSS',
+        description: 'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in HTML. It controls the layout, colors, and fonts of web pages.'
+      },
+      {
+        skill: 'JavaScript',
+        description: 'JavaScript is a high-level, interpreted programming language that enables interactive web development. It adds behavior and interactivity to web pages.'
+      },
+      {
+        skill: 'React',
+        description: 'React is a JavaScript library for building user interfaces, particularly for single-page applications. It allows developers to create reusable UI components.'
+      },
+      {
+        skill: 'Node.js',
+        description: 'Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser. It allows building scalable network applications.'
+      },
+      {
+        skill: 'Git',
+        description: 'Git is a distributed version control system for tracking changes in source code during software development. It allows multiple developers to collaborate on projects.'
+      },
+      {
+        skill: 'Bootstrap',
+        description: 'Bootstrap is a front-end framework for building responsive and mobile-first websites. It provides pre-designed templates and components to streamline web development.'
+      },
+      {
+        skill: 'SASS',
+        description: 'SASS (Syntactically Awesome Style Sheets) is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). It adds features like variables, nesting, and mixins to CSS.'
+      },
+      {
+        skill: 'Responsive Design',
+        description: 'Responsive web design is an approach to design web pages that automatically adjust to various screen sizes and devices. It ensures optimal viewing and interaction experiences across different platforms.'
+      }
+    ]
+    
   };
   
   export default educationAndSkills;

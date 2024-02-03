@@ -46,20 +46,23 @@ const Icon = styled.span`
 function Contact() {
   return (
     <SectionContainer id="contact">
-      <h1>Contact Me</h1>
+      <h1>Get in touch</h1>
+      <p>Your thoughts and feedback matter! Whether you have a question, suggestion, or just want to connect, I'm all ears. Drop me a line and let's start a conversation!</p>
       <Section>
         <ContactInfo>
           <h2>About Me</h2>
           <ContactDetails>
             <ContactDetailItem>
               <Icon><FaLinkedin/></Icon>
-              LinkedIn: <a href="your-linkedin-profile">Your LinkedIn Profile</a>
+              LinkedIn: <a href="https://www.linkedin.com/in/christiane-nanette-dragvik/">Christiane Nanette Dragvik</a>
             </ContactDetailItem>
             <ContactDetailItem>
-              Email: your-email@example.com
+            <Icon><FaEnvelope/></Icon>
+              Email: cndragvik@gmail.com
             </ContactDetailItem>
             <ContactDetailItem>
-              Phone: +1234567890
+            <Icon><FaPhone/></Icon>
+              Phone: +47 968 29 487
             </ContactDetailItem>
           </ContactDetails>
         </ContactInfo>
