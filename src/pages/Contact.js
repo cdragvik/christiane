@@ -28,7 +28,6 @@ const Section = styled.div`
 `;
 
 const ContactInfo = styled.div`
-  flex: 1;
 `;
 
 const ContactDetails = styled.ul`
@@ -49,8 +48,9 @@ function Contact() {
       <h1>Get in touch</h1>
       <p>Your thoughts and feedback matter! Whether you have a question, suggestion, or just want to connect, I'm all ears. Drop me a line and let's start a conversation!</p>
       <Section>
+
         <ContactInfo>
-          <h2>About Me</h2>
+          <h2>Conatct Details:</h2>
           <ContactDetails>
             <ContactDetailItem>
               <Icon><FaLinkedin/></Icon>
@@ -66,7 +66,9 @@ function Contact() {
             </ContactDetailItem>
           </ContactDetails>
         </ContactInfo>
+
         <ContactForm />
+
       </Section>
     </SectionContainer>
   );
